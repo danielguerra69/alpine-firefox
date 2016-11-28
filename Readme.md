@@ -26,7 +26,7 @@ docker run -p 4848:22 --name alpine-firefox --hostname alpine-firefox --volumes-
 Didn't want key based set a password for root.
 ```bash
 docker run -p 4848:22 --name alpine-firefox --hostname alpine-firefox -d danielguerra/alpine-firefox
-docker exec -ti alpine-firefox passwd
+docker exec -ti alpine-firefox passwd (type the new password)
 ```
 
 # On you workstation
